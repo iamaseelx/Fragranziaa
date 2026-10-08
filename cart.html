@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+
+         .fi{
+            img{
+                width: 40px;
+                margin-top: -10px;
+            }
+             input{
+                border-radius: 12px;
+                box-shadow: 1px 1px 6px ;
+                border: none;
+            }
+            nav{
+            display: flex;
+            }
+            h3{
+                margin-left: 30px;
+                color: darkslateblue;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            ul{
+                margin-left: 80px;
+                display: flex;
+                text-decoration: none;
+                gap: 50px;
+            }
+            li{list-style: none;}
+            a{
+                text-decoration: none;
+            }
+        }
+
+
+
+        img{
+            width: 150px;
+        }
+    .first{
+    display: flex;
+
+    .onn{
+        border: solid 2px;
+        width: 66px;
+        height: 23px;
+        padding-left: 20px;
+       border-radius: 10px;
+    }
+    .onn p{
+        margin-top: 1px;
+    }
+    .off{
+       color: green;
+        
+    }
+    .seven{
+        margin-top: -10px;
+        color: green;
+    }
+    .hd{
+        display: flex;
+        gap: 10px;
+        gap: 10px;
+h6{color: rgba(81, 74, 74, 0.916);
+    text-decoration: line-through
+}
+    }
+    .flx{
+        display: flex;
+        gap: 5px ;
+    }
+    .del{
+        margin-top: -25px;
+    }
+}
+    .all{
+        box-shadow: 2px 1px 10px ;
+        border-radius: 10px;
+        width: 569px;
+        button{
+            padding: 5px;
+        }
+    }
+    .fle{
+        display: flex;
+        margin-bottom: 20px;
+        gap: 4px;
+    }
+    .fle .dl button{
+        border: solid 1px red ;
+        color: red;
+        background-color: aliceblue;
+        border-radius: 5px;
+    }
+    .fle .sh button{
+        border: solid 1px rgb(38, 57, 196) ;
+        color: rgb(22, 56, 208);
+        background-color: aliceblue;
+        border-radius: 5px;
+    }
+    .fle .by button{
+        border: solid 1px none;
+        color: rgb(241, 236, 236);
+        background-color: rgba(0, 53, 75, 1);
+        border-radius: 5px;
+    }
+    button{
+         width: 136px;
+    }
+    .rhs{
+        margin-left: 49px;
+        box-shadow: 2px 2px 10px;
+        padding: 7px;
+        height: 280px ;
+    }
+    .price{
+        display: flex;
+        gap: 30px;
+    }
+    .hd{display: flex;
+    gap: 10px;
+h6{color: rgba(81, 74, 74, 0.916);
+    text-decoration: line-through}}
+    .to{
+        gap: 40px;
+        margin-top: 30px;
+        display: flex;
+
+    }
+    .total{
+        display: flex;
+    }
+    .bt button{
+        background-color: rgba(0, 53, 75, 1);
+        color: white;
+        border-radius: 7px;
+        width: 300px;
+        margin-left: 590px;
+        margin-top: 20px;
+        padding: 8px;
+        
+        
+    }
+    .bt p{
+        margin-left: 590px;
+        margin-top: 20px;
+        text-align: center;
+        color: rgb(112, 119, 125);
+    }
+    .rhs{
+        height: 240px;
+        width: 290px;
+        margin-left: 590px;
+        margin-top: -668px;
+       border-radius: 5px;
+        h3{
+            margin-top: 1px;
+        }
+    }
+
+    .frag{
+        margin-top: 330px;
+        width: 920px;
+        h2{
+            color: rgb(8, 78, 78);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        nav{
+            background-color: rgba(139, 184, 190, 1);
+        }
+        .footerline{
+            margin-top: 120px;
+            width: 920px;
+            height: 1px;
+            background-color: black;
+        }
+        li{
+            list-style: none;
+        }
+        .pages{
+            color: black;
+            text-decoration: none;
+            h4{
+                margin-left: 230px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            ul{margin-left: 192px;} 
+        }
+    }
+    .qk{
+        h4{
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 329px;
+            margin-top: -149px;
+        }
+        ul{
+            margin-left: 292px;
+            text-decoration: none;
+        }
+    }
+    .mail{
+        margin-top: -130px;
+        margin-left: 520px;
+
+    }
+    .webb{
+        ul{
+        display: flex;
+        gap: 20px;
+    }
+    p{
+        margin-left: 220px;
+        margin-top: -5px;
+    }
+}
+    </style>
+</head>
+<body>
+    
+     <div class="fi">
+        <nav>
+        <h3>Fragranzia</h2>
+        <ul>
+            <li><a href="index.html">home</a></li>
+             <li><a href="products.html">Products</a></li>
+              <li><a href="">Gifting</a></li>
+               <li><a href="about.html">About</a></li>
+                <li><input type="text" placeholder="search here"></li>
+                <li><a href="cart.html"><img src="cart.png" alt=""></a></li>
+                <li><a href="signup.html"><img src="profile.png" alt=""></a></li>
+        </ul>
+    </nav>
+    </div>
+
+
+    <div class="total">
+    <div class="lhs">
+        <div class="all">
+    <div class="first">
+        <div class="flex">
+        <img src="auto.png" alt="">
+        </div>
+        <div class="second">
+        <h3>Autograph eau de parfum 100ml for men</h3>
+        <p>Autograph</p>
+        <div class="onn">
+            <p><b>- 1 +</b></p>
+        </div>
+        <div class="flx">               
+        <DIV class="hd">
+        <h4>RS 899 </h4>
+        <H6>RS 2000</H6>
+        </DIV>
+        <div class="off">
+            <p>61% off</p>
+        </div>
+        </div>
+        <div class="fle">
+        <div class="dl"><button>Delete</button></div>
+        <div class="sh"><button>Share</button></div>
+        <div class="by"><button>Buy</button></div>
+        </div>
+        </div>
+    </div>
+        </div>
+        <div class="scnd">
+              <div class="all">
+    <div class="first">
+        <div class="flex">
+        <img src="conc.png" alt="">
+        </div>
+        <div class="second">
+        <h3>Autograph eau de parfum 100ml for men</h3>
+        <p>Autograph</p>
+        <div class="onn">
+            <p><b>- 1 +</b></p>
+        </div>
+        <div class="flx">               
+        <DIV class="hd">
+        <h4>RS 899 </h4>
+        <H6>RS 2000</H6>
+        </DIV>
+        <div class="off">
+            <p>61% off</p>
+        </div>
+        </div>
+        <div class="fle">
+        <div class="dl"><button>Delete</button></div>
+        <div class="sh"><button>Share</button></div>
+        <div class="by"><button>Buy</button></div>
+        </div>
+        </div>
+    </div>
+              </div>
+
+
+        <div class="all">
+    <div class="first">
+        <div class="flex">
+        <img src="dubai.jpg" alt="">
+        </div>
+        <div class="second">
+        <h3>Autograph eau de parfum 100ml for men</h3>
+        <p>Autograph</p>
+        <div class="onn">
+            <p><b>- 1 +</b></p>
+        </div>
+        <div class="flx">               
+        <DIV class="hd">
+        <h4>RS 899 </h4>
+        <H6>RS 2000</H6>
+        </DIV>
+        <div class="off">
+            <p>61% off</p>
+        </div>
+        </div>
+        <div class="fle">
+        <div class="dl"><button>Delete</button></div>
+        <div class="sh"><button>Share</button></div>
+        <div class="by"><button>Buy</button></div>
+        </div>
+        </div>
+    </div>
+        </div>
+        </div>
+
+
+         <div class="rhs">
+        <h2>Check out</h2>
+        <div class="price">
+        <p>price(1 item)</p> 
+            <div class="hd">
+        <h5>RS 899 </h5>
+        <h6>RS 2000</h6>
+        </div></div>
+        <div class="price">
+        Discount(61%) <b>Rs 1101</b> <br> </div><br>
+        <div class="price"> 
+        Delivery Charge <div class="free">free delivery</div>
+        </div>
+        <nav></nav>
+        <div class="to">
+        <b>Total Amount</b> <h3>RS 899</h3>
+        
+        </div>
+    </div>
+    <div class="bt">
+    <button>Proceed to buy</button><p>Safe and Secure Payments. Easy <br> returns.100% Authentic products.</p>
+    
+    
+    </div>
+</div>
+
+    </div>
+<div class="frag">
+    <nav>
+        <h2>Fragranzia</h2>
+        <div class="pages">
+        <h4>Pages</h4>
+        <ul>
+            <li>
+                <a href="a">Home</a>
+            </li>
+            <li>
+                <a href="products.html">Products</a>
+            </li>
+            <li>
+                <a href="a">Gifting</a>
+            </li>
+            <li>
+                <a href="a">About</a>
+            </li>
+            <li>
+                <a href="a">Profile</a>
+            </li>
+        </ul>
+         </div>
+        <div class="qk">
+        <h4>Quick Links</h4>
+        <ul>
+            <li>
+                <a href="a">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="a">Terms and condtitions</a>
+            </li>
+            <li>
+                <a href="a">FAQs</a>
+            </li>
+            <li>
+                <a href="a">Customer service</a>
+            </li>
+        </ul>
+        </div>
+        <div class="mail">
+        <li>ftrafurniture@gmail.com</li>
+        <li>+91 9843654921</li>
+        <li><h4>Social Media</h4></li>
+        </div>
+        <div class="footerline">
+        <nav></nav></div>
+        
+        <div class="webb">
+     <ul>
+        <li>Web Accessability </li>
+        <li>Terms of use</li>
+        <li>Privacy statement</li>
+        <li>Contact Us</li>
+     
+     <p>&copy;2024 fragranzia Company.All rights reserved</p>
+     </ul>
+   </div>
+   </div>
+    </nav>
+    
+
+</body>
+</html>
