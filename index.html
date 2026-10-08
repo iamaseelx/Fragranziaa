@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <style>
+        li a{
+            text-decoration: none;
+        }
+        input{
+                border-radius: 12px;
+                box-shadow: 1px 1px 6px ;
+                border: none;
+            }
+        .el{
+            background-color:rgba(208, 247, 251, 1);
+            img{margin-left: 450px;
+                margin-top: -100px;
+                width: 200px;
+                height: 190px;
+            }
+        }
+        .lst{
+            img{width: 1170px;
+            height: 220px;}
+        }
+        
+        .fi{
+            img{
+                width: 40px;
+                margin-top: -10px;
+            }
+            nav{
+            display: flex;
+            }
+            h3{
+                margin-left: 30px;
+                color: darkslateblue;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            ul{
+                margin-left: 80px;
+                display: flex;
+                text-decoration: none;
+                gap: 50px;
+            }
+            li{list-style: none;}
+            a{
+                text-decoration: none;
+            }
+        }
+        .njoy{
+            nav{margin-left: 50px; 
+            padding: 10px;}
+            background-color: rgb(86, 86, 181);
+            color: aliceblue;
+        }
+        .disc{
+            background-size: fill;
+            background: url(bg.png);
+            background-repeat: no-repeat;
+            background-color: rgba(0, 53, 75, 1);
+            border-radius: 5px;
+            
+            color: aliceblue;
+            button{
+                margin-bottom: 20px;
+                border-radius: 5px;
+                border: none;
+                padding: 6px;
+            }
+            h2{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            .move{
+                margin: 20px;
+            }
+            
+            }
+            
+        .list{
+            width: 1210px;
+            border:solid 2px;
+            border-radius: 9px;
+            gap: 20px;
+            ul{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                gap: 20px;
+                display: flex;
+            }
+
+           li{ list-style: none;}
+           p{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+           
+        }
+        .three{
+           ul{ display: flex;
+            gap: 20px;
+        
+        }
+           li{list-style: none;}
+           .or{
+            h5{
+                margin-left: 20px;
+            }
+            p{margin-left: 20px;
+                margin-right: 20px;
+            }
+            border-radius: 15px;
+            background-color: rgba(231, 231, 231, 1);
+            height: 227px;
+            
+            img{
+                margin-top: -160px;
+                margin-left: 180px;
+                width: 175px;
+                height: 175;
+                display: flex;
+            }}
+           }
+           .blk{border-radius: 15px;
+            h5{ margin-left: 20px;
+                margin-right: 20px;;}
+                p{margin-top: -46px;
+                    margin-left: 20px;
+                margin-right: 20px;}
+            
+            background-color: rgba(231, 231, 231, 1);
+            height: 227px;
+            width: 355px;
+        
+            img{
+                width: 200px;
+                margin-bottom: 300px;
+                margin-top: -42px;
+                align-items: center;
+           }
+        }
+           .lux{border-radius: 15px;
+            background-color: rgba(231, 231, 231, 1);
+             height: 227px;
+            width: 355px;
+            h5{margin-left: 20px;
+                margin-right: 20px;}
+                p{margin-left: 20px;
+                margin-right: 20px;}
+        img{
+                width: 200px;
+            margin-top: -57px;
+            margin-left: 175px;
+            }
+
+    
+        }
+    .items img:hover{
+        border-top-right-radius: 80px;
+            border-bottom-left-radius: 75px;
+            border-top-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+    }
+    .items ul{
+        display: flex;
+        list-style: none;
+        gap: 70px;
+        
+    }
+    .auto li img{
+        margin-bottom: 19px;
+        width: 230px;
+        
+        background-color: aliceblue;
+         border-top-left-radius: 80px;
+            border-bottom-right-radius: 75px;
+          box-shadow: 10px 10px 20px rgb(190, 186, 186);
+        
+    }
+    .kyros li img{
+        margin-bottom: 19px;
+        width: 230px;
+        border-top-left-radius: 80px;
+            border-bottom-right-radius: 75px;
+            box-shadow: 10px 10px 20px rgb(184, 178, 178);
+    }
+    .dubai li img{
+        margin-bottom: 19px;
+        width: 230px;
+    border-top-left-radius: 80px;
+            border-bottom-right-radius: 75px;
+            box-shadow: 10px 10px 20px rgb(168, 161, 161);
+    }
+    .hd{display: flex;
+    gap: 10px;
+h6{color: rgba(81, 74, 74, 0.916);
+    text-decoration: line-through
+}
+}
+button{
+    color: aliceblue;
+    background: rgb(2, 94, 133);
+    width: 215px;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+}
+.pa{
+    margin-left: 50px;
+    margin: right 50px; ;
+}
+.new{
+    display: flex;
+    gap: 7px;
+    .onn{
+        h3{
+            margin-top: -50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: aliceblue;
+        }
+        img{
+        width: 200px;
+        height: 290px;
+       }}
+    .rand{
+        h3{
+            margin-top: -50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: aliceblue;
+        }
+        img{
+        width: 200px;
+        height: 290px;
+       }}
+    .moonn{
+        h3{
+            margin-top: -102px;
+            margin-right: 120px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: aliceblue;
+           transform: rotate(-90deg);
+        }
+        img{
+        width: 200px;
+        height: 290px;
+       }}
+}
+    .exp{
+        .e{display: flex;
+        gap: 350px;}
+        .d{display: flex;
+        gap: 50px;}
+
+        img{
+            width: 110px;
+            height: 120px;
+            border: none 2px;
+            border-radius: 50%;
+            box-shadow: 3px 2px 5px;
+        }
+    }
+    .frag{
+        h2{
+            color: rgb(8, 78, 78);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        nav{
+            background-color: rgba(139, 184, 190, 1);
+        }
+        .footerline{
+            margin-top: 120px;
+            width: 920px;
+            height: 1px;
+            background-color: black;
+        }
+        li{
+            list-style: none;
+        }
+        .pages{
+            color: black;
+            text-decoration: none;
+            h4{
+                margin-left: 230px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            ul{margin-left: 192px;} 
+        }
+    }
+    .qk{
+        h4{
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 329px;
+            margin-top: -149px;
+        }
+        ul{
+            margin-left: 292px;
+            text-decoration: none;
+        }
+    }
+    .mail{
+        margin-top: -130px;
+        margin-left: 520px;
+
+    }
+    .webb{
+        ul{
+        display: flex;
+        gap: 20px;
+    }
+    p{
+        margin-left: 220px;
+        margin-top: -5px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="fi">
+        <nav>
+        <h3>Fragranzia</h3>
+        <ul>
+            <li><a href="index.html">home</a></li>
+             <li><a href="products.html">Products</a></li>
+              <li><a href="">Gifting</a></li>
+               <li><a href="about.html">About</a></li>
+                <li><input type="text" placeholder="search here"></li>
+                <li><a href="cart.html"><img src="cart.png" alt=""></a></li>
+                <li><a href="signup.html"><img src="profile.png" alt=""></a></li>
+
+        </ul>
+    </nav>
+    </div>
+    <div class="njoy">
+    <nav>ENJOY FESTIVE DISCOUNTS! FREE SHIPPING ABOVE 999!</nav></div>
+    <DIV class="disc">
+        <div class="move">
+        <h2>Discover perfumes that <br> celebrate individuality</h2><br>
+        <p>Every moment with an unforgettable essence.</p><br>
+        <button>shop now</button></div>
+       
+    </DIV>
+    <div class="three">
+    <ul>
+        <div class="or">
+        <li><h5> Unlock Exclusive <br> offers</h5><br>
+        <p> Discover special deals <br> tailored just for you!</p>
+        <img src="orange.jpg" alt=""></div>
+        </li>
+        <div class="blk">
+        <li><h5>Gift a Scents to your loved one.</h5><br>
+        <p>Make your love more beatiful</p>
+        <img src="black.png" alt=""></div>
+        </li>
+        <div class="lux">
+        <li><h5>Luxury scents <br> starting at $4,000</h5><br>
+        <img src="white.png" alt=""></div>
+        </li>
+    </ul></div>
+    <div class="list">
+        <nav>
+        <ul>
+            <li> <h5> Fast and Reliable Delivery </h5> <br>
+            <p >Get your orders delivered on time, every time</p></li><br>
+            <li><h5>Secure payment</h5><br>
+            <p>Shop with confidence using our encrypted payment gateways.</p></li><br>
+            <li><h5>24/7 Customer support</h5><br>
+            <p>we're have to assist you anytimme, anywhere</p></li><br>
+        </ul>
+    </nav>
+    </div>
+<h2>Featured Collections</H2>
+    <div class="items">
+        
+        <ul>
+        <div class="auto">
+        <li>
+        <img src="auto.png" alt="Autograph"> <br>Autograph Eau De perfume 100ml For men <br>
+        <DIV class="hd">
+        <h4>RS 650 </h4>
+        <H6>RS 1400</H6> <br>
+        </DIV>
+        <button>Add to Cart</button>
+        </li> 
+        </div> 
+        <div class="kyros">
+        <li>
+        <img src="kyros.jpg" alt="Autograph"> <br>Kyros Eau De parfum 100ml For men<br>
+         <DIV class="hd">
+        <h4>RS 899 </h4>
+        <H6>RS 2000</H6> <br>
+        </DIV>
+        <button>Add to Cart</button>
+        </li>
+    </div>
+        <div class="dubai">
+            <li>
+        <img src="dubai.jpg" alt=""> <br>Oud Of Dubai perfume 100ml For men <br>
+         <DIV class="hd">
+        <h4>RS 999 </h4>
+        <H6>RS 2241</H6> <br>
+        </DIV>
+        <button>Add to Cart</button>
+        </li></div>
+</ul>
+
+    </div>
+    <div class="pa">
+    <p>"It's an art. A craft. A science. At Fragranzia, we're in the business of creating memories that last forever through our fragrances."</p>
+   </div>
+   <div class="new">
+    <div class="onn"><img src="new.jpg" alt="">
+    <h3>New Arrivals</h3> </div>
+    <div class="rand"><img src="limi.jpg" alt=""> 
+     <h3>Limited Edition</h3>
+    </div>
+    <div class="moonn"><img src="best.jpg" alt="">
+     <h3>Best Sellers</h3>
+    </div>
+   </div>
+   <div class="exp">
+    <div class="e">
+    <h3>Explore Categories</h3>
+    <a href="s">see All</a>
+    </div>
+    <div class="d">
+    <div class="eau">
+    <img src="eau de.jpg" alt="">
+    <p>Eau De parfum</p>
+    </div>
+     <div class="conc">
+    <img src="conc.png" alt="">
+    <p>Concentrated</p>
+    </div>
+     <div class="Deo">
+    <img src="deod.png" alt="">
+    <p>Deodarants</p>
+    </div>
+     <div class="bo">
+    <img src="focus.png" alt="">
+    <p>Body Mist</p>
+    </div>
+     <div class="combo">
+    <img src="combo.png" alt="">
+    <p>Combo</p>
+    </div>
+    </div>
+   </div>
+   <div class="el">
+    <nav>
+        <h3>Elegance in Every Bottle</h3>
+       <p>Discover timeless fragrances crafted for every moment</p> 
+       <button>shop now</button>
+       <img src="elegance.jpg" alt="">
+    </nav>
+   </div>
+   <div class="frag">
+    <nav>
+        <h2>Fragranzia</h2>
+        <div class="pages">
+        <h4>Pages</h4>
+        <ul>
+            <li>
+                <a href="a">Home</a>
+            </li>
+            <li>
+                <a href="products.html">Products</a>
+            </li>
+            <li>
+                <a href="a">Gifting</a>
+            </li>
+            <li>
+                <a href="a">About</a>
+            </li>
+            <li>
+                <a href="a">Profile</a>
+            </li>
+        </ul>
+         </div>
+        <div class="qk">
+        <h4>Quick Links</h4>
+        <ul>
+            <li>
+                <a href="a">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="a">Terms and condtitions</a>
+            </li>
+            <li>
+                <a href="a">FAQs</a>
+            </li>
+            <li>
+                <a href="a">Customer service</a>
+            </li>
+        </ul>
+        </div>
+        <div class="mail">
+        <li>ftrafurniture@gmail.com</li>
+        <li>+91 9843654921</li>
+        <li><h4>Social Media</h4></li>
+        </div>
+        <div class="footerline">
+        <nav></nav></div>
+        
+        <div class="webb">
+     <ul>
+        <li>Web Accessability </li>
+        <li>Terms of use</li>
+        <li>Privacy statement</li>
+        <li>Contact Us</li>
+     
+     <p>&copy;2024 fragranzia Company.All rights reserved</p>
+     </ul>
+   </div>
+   </div>
+    </nav>
+</body>
+</html>
